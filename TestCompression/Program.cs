@@ -7,9 +7,9 @@ namespace TestCompression
 {
     class Program
     {
-        public static int ThreadId;
-        public static StatusCallback StatusCallBack;
-        public static LogCallback StatusLogCallBack;
+        public static int ThreadId = 0;
+        public static StatusCallback StatusCallBack = null;
+        public static LogCallback StatusLogCallBack = null;
         public static zipType OutZip = zipType.zip;
         static void Main(string[] args)
         {
